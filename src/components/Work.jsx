@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export default function Work() {
     return (
@@ -44,7 +45,8 @@ export default function Work() {
                             Full Stack
                         </span>
 
-                        <a href="#" className="p-2 bg-white/40 backdrop-blur rounded-full opacity-0 group-hover:opacity-100 transition">
+                        <a href="https://car-rental-seven-ecru.vercel.app/" target="_blank"
+                            className="p-2 bg-white/40 backdrop-blur rounded-full opacity-0 group-hover:opacity-100 transition">
                             ↗
                         </a>
 
@@ -59,18 +61,41 @@ export default function Work() {
                         protected routes, and user profile-based features.
                     </p>
 
-                    <div className="rounded-xl overflow-hidden mb-6 aspect-[16/10] bg-gray-100 border border-black/5">
-                        <img
-                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuAOWaacOLnJCJZw9f69fpBD5lGwUUr2dNEG-1R6RybNPjL4zeizo1O8zyw65iw2uWzPQf-ND_1IoRSN2r7WVQ-SS-S8oN8xjz6P4dhzw6H4pqyrYPp2sCoiJY9HevIwD1kkVh9rIDFCxre1nFo_OPJ0qZS3Hf9gJrvybl36rC7VpczePcIzb30ILze4_C16OpBPE3poHJ72kbJG3Sp_zWjyQ0nLD2ahse7cB0BL_vIECBoCIHbP4lf6b9lI1IxgdFdACKnIvF3CAs_h"
-                            alt="DriveFleet"
-                            className="w-full h-full object-cover"
+                    <div className="relative rounded-xl overflow-hidden mb-6 aspect-[16/10] bg-gray-100 border border-black/5">
+                        <Image
+                            src="/p1.png"
+                            alt="project1"
+                            fill
+                            className="object-cover"
+                            sizes="(max-width: 768px) 100vw, 50vw"
                         />
                     </div>
 
+                    {/* LINKS */}
                     <div className="flex flex-wrap gap-2">
-                        <span className="px-3 py-1 rounded bg-black text-white text-[10px] font-bold">Next.js</span>
-                        <span className="px-3 py-1 rounded bg-black text-white text-[10px] font-bold">MongoDB</span>
-                        <span className="px-3 py-1 rounded bg-black text-white text-[10px] font-bold">JWT Auth</span>
+                        <a
+                            href="https://car-rental-seven-ecru.vercel.app/"
+                            target="_blank"
+                            className="px-3 py-1 rounded bg-green-600 text-white text-[10px] font-bold"
+                        >
+                            Live Demo
+                        </a>
+
+                        <a
+                            href="https://github.com/ayshaaktersaima1/car-rental"
+                            target="_blank"
+                            className="px-3 py-1 rounded bg-black text-white text-[10px] font-bold"
+                        >
+                            Client Repo
+                        </a>
+
+                        <a
+                            href="https://github.com/ayshaaktersaima1/car-rental-server"
+                            target="_blank"
+                            className="px-3 py-1 rounded bg-black/80 text-white text-[10px] font-bold"
+                        >
+                            Server Repo
+                        </a>
                     </div>
 
                 </motion.div>
@@ -89,7 +114,8 @@ export default function Work() {
                             Nextjs
                         </span>
 
-                        <a href="#" className="p-2 bg-white/40 backdrop-blur rounded-full opacity-0 group-hover:opacity-100 transition">
+                        <a href="https://tiles-gallery-xi.vercel.app/" target="_blank"
+                            className="p-2 bg-white/40 backdrop-blur rounded-full opacity-0 group-hover:opacity-100 transition">
                             ↗
                         </a>
 
@@ -104,18 +130,35 @@ export default function Work() {
                         profile management and responsive UI.
                     </p>
 
-                    <div className="rounded-xl overflow-hidden mb-6 aspect-[16/10] bg-gray-100 border border-black/5">
-                        <img
-                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuCVz1YUDAzDaQ9eOYQrIAgcb1DsLBCvn2I5jKHeiOK5TlXXl6WypgvHa6gxn12QlaCjIP4KfULinumjekU6zNESdpKEQmhowHx1yojuZTNAd-tQDq5_ABXnNFZNAdgiI6eRRWwV1F_ZLNaC0imw6GXeQEwd162cYvab-yawkzUcOtLNGk040Qd5d3NVQoNSEO71J4fsyYbKFy3W_XmRmD43qBaRSUqSig6O0eYzXi3JM09jwk4ovfkwb65Tx2BCUA60Jxa7NK9VvMAi"
-                            alt="Tiles Gallery"
-                            className="w-full h-full object-cover"
+                    <div className="relative rounded-xl overflow-hidden mb-6 aspect-[16/10] bg-gray-100 border border-black/5">
+                        <Image
+                            src="/p2.png"
+                            alt="project1"
+                            fill
+                            className="object-cover"
+                            sizes="(max-width: 768px) 100vw, 50vw"
                         />
                     </div>
 
+                    {/* LINKS */}
                     <div className="flex flex-wrap gap-2">
-                        <span className="px-3 py-1 rounded bg-black text-white text-[10px] font-bold">Next.js</span>
-                        <span className="px-3 py-1 rounded bg-black text-white text-[10px] font-bold">Auth</span>
-                        <span className="px-3 py-1 rounded bg-black text-white text-[10px] font-bold">MongoDB</span>
+
+                        <a
+                            href="https://tiles-gallery-xi.vercel.app/"
+                            target="_blank"
+                            className="px-3 py-1 rounded bg-pink-600 text-white text-[10px] font-bold"
+                        >
+                            Live Demo
+                        </a>
+
+                        <a
+                            href="https://github.com/ayshaaktersaima1/tiles-gallery"
+                            target="_blank"
+                            className="px-3 py-1 rounded bg-black text-white text-[10px] font-bold"
+                        >
+                            GitHub Repo
+                        </a>
+
                     </div>
 
                 </motion.div>
@@ -134,7 +177,8 @@ export default function Work() {
                             React App
                         </span>
 
-                        <a href="#" className="p-2 bg-white/40 backdrop-blur rounded-full opacity-0 group-hover:opacity-100 transition">
+                        <a href="https://my-keen-keeper-saima.netlify.app/" target="_blank"
+                            className="p-2 bg-white/40 backdrop-blur rounded-full opacity-0 group-hover:opacity-100 transition">
                             ↗
                         </a>
 
@@ -149,18 +193,35 @@ export default function Work() {
                         and interaction history visualization.
                     </p>
 
-                    <div className="rounded-xl overflow-hidden mb-6 aspect-[16/10] bg-gray-100 border border-black/5">
-                        <img
-                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuBbnZsFzhCBVjOE3p59j2msBfwfYQgO8nGPAGsoO1Y0i3bpKIXlbcWghP-Kf9bEukzi76liOwC87t_-RMDO17AwLlBSM15cVWYqRZADp2dEDnvnpSmBDAtlS1k_An-NR0OuUfUDTyiyLCowbyKJhmk5mDp93yGjLGju6HGlApg7TlW32Dv76H6LvfhqGEaCoNiVCPrq32GonSO6eqI-phQ4lPp8_rH64KvaGw77dWisueAk5d--O5zQDrVb3EyRwVnLpeTQHoYJX7tJ"
-                            alt="KeenKeeper"
-                            className="w-full h-full object-cover"
+                    <div className="relative rounded-xl overflow-hidden mb-6 aspect-[16/10] bg-gray-100 border border-black/5">
+                        <Image
+                            src="/p3.png"
+                            alt="project1"
+                            fill
+                            className="object-cover"
+                            sizes="(max-width: 768px) 100vw, 50vw"
                         />
                     </div>
 
+                    {/* LINKS */}
                     <div className="flex flex-wrap gap-2">
-                        <span className="px-3 py-1 rounded bg-black text-white text-[10px] font-bold">React</span>
-                        <span className="px-3 py-1 rounded bg-black text-white text-[10px] font-bold">Recharts</span>
-                        <span className="px-3 py-1 rounded bg-black text-white text-[10px] font-bold">Tailwind</span>
+
+                        <a
+                            href="https://my-keen-keeper-saima.netlify.app/"
+                            target="_blank"
+                            className="px-3 py-1 rounded bg-gray-700 text-white text-[10px] font-bold"
+                        >
+                            Live Demo
+                        </a>
+
+                        <a
+                            href="https://github.com/ayshaaktersaima1/keen-keeper"
+                            target="_blank"
+                            className="px-3 py-1 rounded bg-black text-white text-[10px] font-bold"
+                        >
+                            GitHub Repo
+                        </a>
+
                     </div>
 
                 </motion.div>
