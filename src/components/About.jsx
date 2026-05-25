@@ -17,11 +17,11 @@ export default function About() {
                 transition={{ duration: 0.6 }}
             >
 
-                <h2 className="text-3xl font-bold mb-8 text-black dark:text-[#E6EAE8]">
+                <h2 className="text-3xl font-bold mb-8 text-black ">
                     About me
                 </h2>
 
-                <div className="space-y-4 text-black/60 dark:text-[#A7B3AD] max-w-lg leading-7">
+                <div className="space-y-4 text-black/60  max-w-lg leading-7">
 
                     <p>
                         I’m a full-stack developer who loves turning ideas into beautiful,
@@ -32,18 +32,18 @@ export default function About() {
                 </div>
 
                 {/* BUTTON */}
-                <motion.button
+                <motion.a
+                    href="/resume.pdf"
+                    download
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ delay: 0.2, duration: 0.5 }}
-                    className="mt-8 px-8 py-3 rounded-full flex items-center gap-2
-                    bg-black text-white
-                    dark:bg-[#3E6B5B] dark:text-[#E6EAE8]
-                    hover:opacity-90 transition"
+                    className="mt-8 w-fit px-8 py-3 rounded-full flex items-center gap-2
+    bg-black text-white hover:opacity-90 transition"
                 >
                     ⬇ Download Resume
-                </motion.button>
+                </motion.a>
 
             </motion.div>
 
@@ -54,18 +54,18 @@ export default function About() {
                 viewport={{ once: true }}
                 transition={{ duration: 0.6 }}
                 className="rounded-3xl p-8
-                bg-white/40 dark:bg-[#1A2420]
-                backdrop-blur border border-white/40 dark:border-[#22302B]"
+                bg-white/40 
+                backdrop-blur border border-white/40 "
             >
 
-                <h3 className="text-xl font-bold mb-8 text-black dark:text-[#E6EAE8]">
+                <h3 className="text-xl font-bold mb-8 text-black ">
                     My Education
                 </h3>
 
                 <div className="space-y-8 relative">
 
                     {/* LINE */}
-                    <div className="absolute left-[11px] top-2 bottom-2 w-[2px] bg-black/10 dark:bg-[#22302B]"></div>
+                    <div className="absolute left-[11px] top-2 bottom-2 w-[2px] bg-black/10 "></div>
 
                     {/* ITEM 1 */}
                     <motion.div
@@ -129,11 +129,11 @@ function Dot({ color }) {
     const colors = {
         green: "bg-green-600",
         pink: "bg-pink-600",
-        black: "bg-black dark:bg-[#C9C3AD]"
+        black: "bg-black "
     };
 
     return (
-        <div className="absolute left-0 top-1 w-6 h-6 rounded-full bg-white dark:bg-[#1A2420] border-4 border-white dark:border-[#22302B] flex items-center justify-center">
+        <div className="absolute left-0 top-1 w-6 h-6 rounded-full bg-white  border-4 border-white  flex items-center justify-center">
             <div className={`w-2 h-2 rounded-full ${colors[color]}`} />
         </div>
     );
@@ -143,10 +143,10 @@ function Content({ title, time, desc }) {
     return (
         <div className="flex-1">
             <div className="flex justify-between mb-1 flex-wrap gap-2">
-                <span className="font-bold text-black dark:text-[#E6EAE8]">{title}</span>
-                <span className="text-sm text-black/50 dark:text-[#6C7A73]">{time}</span>
+                <span className="font-bold text-black ">{title}</span>
+                <span className="text-sm text-black/50 ">{time}</span>
             </div>
-            <p className="text-sm text-black/60 dark:text-[#A7B3AD]">{desc}</p>
+            <p className="text-sm text-black/60 ">{desc}</p>
         </div>
     );
 }
