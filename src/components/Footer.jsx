@@ -41,16 +41,15 @@ export default function Footer() {
 
                     <div className="flex flex-col gap-3">
 
-                        <a
-                            href="mailto:yourmail@gmail.com"
-                            className="flex items-center gap-3 text-black/70 hover:text-black transition"
-                        >
+                        <p className="flex items-center gap-3 text-black/70 hover:text-black transition">
+
+
                             <FaEnvelope />
-                            Email
-                        </a>
+                            ayshaaktersaima1@gmail.com
+                        </p>
 
                         <a
-                            href="https://linkedin.com/in/yourprofile"
+                            href="https://www.linkedin.com/in/aysha-akter-saima/"
                             target="_blank"
                             className="flex items-center gap-3 text-black/70 hover:text-black transition"
                         >
@@ -59,7 +58,7 @@ export default function Footer() {
                         </a>
 
                         <a
-                            href="https://github.com/yourusername"
+                            href="https://github.com/ayshaaktersaima1"
                             target="_blank"
                             className="flex items-center gap-3 text-black/70 hover:text-black transition"
                         >

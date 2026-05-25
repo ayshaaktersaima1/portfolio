@@ -6,7 +6,7 @@ export default function SocialSidebar() {
 
             {/* LINKEDIN */}
             <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/aysha-akter-saima/"
                 target="_blank"
                 className="w-12 h-12 flex items-center justify-center rounded-full 
                 bg-white/40 backdrop-blur-xl border border-white/50 shadow-md
@@ -17,7 +17,7 @@ export default function SocialSidebar() {
 
             {/* GITHUB */}
             <a
-                href="https://github.com"
+                href="https://github.com/ayshaaktersaima1"
                 target="_blank"
                 className="w-12 h-12 flex items-center justify-center rounded-full 
                 bg-white/40 backdrop-blur-xl border border-white/50 shadow-md
