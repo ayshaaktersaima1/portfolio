@@ -59,9 +59,12 @@ export default function Hero() {
                     className="flex flex-wrap items-center gap-5"
                 >
 
-                    <button className="h-[55px] px-8 rounded-full bg-[#111] text-white font-semibold hover:scale-[1.03] transition">
+                    <a
+                        href="#contact"
+                        className="h-[55px] px-8 rounded-full bg-[#111] text-white font-semibold hover:scale-[1.03] transition flex items-center justify-center"
+                    >
                         Contact Me →
-                    </button>
+                    </a>
                 </motion.div>
 
             </motion.div>

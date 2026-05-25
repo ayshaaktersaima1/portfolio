@@ -17,9 +17,12 @@ export default function Navbar() {
             </div>
 
             {/* Button */}
-            <button className="bg-black text-white px-5 py-2 rounded-full text-sm hover:scale-105 transition">
-                Hire me
-            </button>
+            <a
+                href="#contact"
+                className="bg-black text-white px-5 py-2 rounded-full text-sm hover:scale-105 transition"
+            >
+                Hire Me
+            </a>
         </nav>
     );
 }

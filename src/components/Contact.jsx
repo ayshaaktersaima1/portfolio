@@ -8,6 +8,7 @@ export default function Contact() {
     return (
         <section id="contact" className="max-w-6xl mx-auto px-6 pb-32">
 
+            {/* TITLE */}
             <motion.h2
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -28,7 +29,7 @@ export default function Contact() {
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
 
-                {/* LEFT */}
+                {/* LEFT SIDE */}
                 <motion.div
                     initial={{ opacity: 0, x: -40 }}
                     whileInView={{ opacity: 1, x: 0 }}
@@ -41,48 +42,66 @@ export default function Contact() {
 
                     <div className="space-y-4">
 
-                        <a href="mailto:yourmail@gmail.com"
-                            className="flex items-center gap-4 p-5 rounded-2xl bg-white/40 backdrop-blur border border-white/40 hover:bg-white transition">
-
+                        {/* EMAIL */}
+                        <a
+                            href="mailto:ayshaaktersaima1@gmail.com"
+                            className="flex items-center gap-4 p-5 rounded-2xl bg-white/40 backdrop-blur border border-white/40 hover:bg-white transition"
+                        >
                             <FaEnvelope className="text-2xl text-red-500" />
 
                             <div>
                                 <p className="font-semibold">Email</p>
-                                <p className="text-sm text-black/60">yourmail@gmail.com</p>
-                                <span className="text-xs text-green-600">Write me →</span>
+                                <p className="text-sm text-black/60">
+                                    ayshaaktersaima1@gmail.com
+                                </p>
+                                <span className="text-xs text-green-600">
+                                    Write me →
+                                </span>
                             </div>
                         </a>
 
-                        <a href="https://linkedin.com/in/yourprofile"
+                        {/* LINKEDIN */}
+                        <a
+                            href="https://www.linkedin.com/in/aysha-akter-saima/"
                             target="_blank"
-                            className="flex items-center gap-4 p-5 rounded-2xl bg-white/40 backdrop-blur border border-white/40 hover:bg-white transition">
-
+                            className="flex items-center gap-4 p-5 rounded-2xl bg-white/40 backdrop-blur border border-white/40 hover:bg-white transition"
+                        >
                             <FaLinkedin className="text-2xl text-blue-500" />
 
                             <div>
                                 <p className="font-semibold">LinkedIn</p>
-                                <p className="text-sm text-black/60">your-profile</p>
-                                <span className="text-xs text-green-600">Write me →</span>
+                                <p className="text-sm text-black/60">
+                                    aysha akter saima
+                                </p>
+                                <span className="text-xs text-green-600">
+                                    Write me →
+                                </span>
                             </div>
                         </a>
 
-                        <a href="https://github.com/yourusername"
+                        {/* GITHUB */}
+                        <a
+                            href="https://github.com/ayshaaktersaima1"
                             target="_blank"
-                            className="flex items-center gap-4 p-5 rounded-2xl bg-white/40 backdrop-blur border border-white/40 hover:bg-white transition">
-
+                            className="flex items-center gap-4 p-5 rounded-2xl bg-white/40 backdrop-blur border border-white/40 hover:bg-white transition"
+                        >
                             <SiGithub className="text-2xl text-black" />
 
                             <div>
                                 <p className="font-semibold">GitHub</p>
-                                <p className="text-sm text-black/60">your-username</p>
-                                <span className="text-xs text-green-600">Write me →</span>
+                                <p className="text-sm text-black/60">
+                                    ayshaaktersaima1
+                                </p>
+                                <span className="text-xs text-green-600">
+                                    Write me →
+                                </span>
                             </div>
                         </a>
 
                     </div>
                 </motion.div>
 
-                {/* RIGHT */}
+                {/* RIGHT SIDE (FORM) */}
                 <motion.div
                     initial={{ opacity: 0, x: 40 }}
                     whileInView={{ opacity: 1, x: 0 }}
@@ -112,7 +131,7 @@ export default function Contact() {
                         />
 
                         <button
-                            className="w-full h-[50px] bg-black text-white rounded-xl"
+                            className="w-full h-[50px] bg-black text-white rounded-xl hover:opacity-90 transition"
                         >
                             Send Message →
                         </button>
