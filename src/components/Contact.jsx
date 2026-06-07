@@ -102,7 +102,7 @@ export default function Contact() {
                 </motion.div>
 
                 {/* RIGHT SIDE (FORM) */}
-                <motion.div
+                {/* <motion.div
                     initial={{ opacity: 0, x: 40 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.6 }}
@@ -138,7 +138,7 @@ export default function Contact() {
 
                     </form>
 
-                </motion.div>
+                </motion.div> */}
 
             </div>
         </section>
