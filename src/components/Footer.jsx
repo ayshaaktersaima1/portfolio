@@ -1,5 +1,5 @@
 import { SiGithub } from "react-icons/si";
-import { FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { FaLinkedin, FaEnvelope, FaWhatsapp } from "react-icons/fa";
 
 export default function Footer() {
     return (
@@ -64,6 +64,15 @@ export default function Footer() {
                         >
                             <SiGithub />
                             GitHub
+                        </a>
+
+                        <a
+                            href="https://wa.me/8801780613588"
+                            target="_blank"
+                            className="flex items-center gap-3 text-black/70 hover:text-black transition"
+                        >
+                            <FaWhatsapp />
+                            WhatsApp
                         </a>
 
                     </div>

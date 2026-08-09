@@ -78,7 +78,7 @@ export default function Hero() {
             >
 
                 {/* IMAGE WRAPPER */}
-                <div className="relative w-[320px] h-[320px] md:w-[380px] md:h-[380px]">
+                <div className="relative w-[260px] h-[260px] sm:w-[300px] sm:h-[300px] md:w-[380px] md:h-[380px]">
 
                     {/* GLOW */}
                     <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-green-300/30 via-purple-300/20 to-pink-300/20 blur-2xl" />

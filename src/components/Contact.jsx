@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { SiGithub } from "react-icons/si";
-import { FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { FaLinkedin, FaEnvelope, FaWhatsapp } from "react-icons/fa";
 
 export default function Contact() {
     return (
@@ -91,6 +91,28 @@ export default function Contact() {
                                 <p className="font-semibold">GitHub</p>
                                 <p className="text-sm text-black/60">
                                     ayshaaktersaima1
+                                </p>
+                                <span className="text-xs text-green-600">
+                                    Write me →
+                                </span>
+                            </div>
+                        </a>
+
+
+
+                        {/* WHATSAPP */}
+                        <a
+                            href="https://wa.me/8801780613588"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center gap-4 p-5 rounded-2xl bg-white/40 backdrop-blur border border-white/40 hover:bg-white transition"
+                        >
+                            <FaWhatsapp className="text-2xl text-green-500" />
+
+                            <div>
+                                <p className="font-semibold">WhatsApp</p>
+                                <p className="text-sm text-black/60">
+                                    01780613588
                                 </p>
                                 <span className="text-xs text-green-600">
                                     Write me →
