@@ -110,7 +110,7 @@ export default function About() {
                         <Dot color="black" />
                         <Content
                             title="BSc in CSE"
-                            time="2021 - 2024"
+                            time="2021 - 2025"
                             desc="International Islamic University Chittagong"
                         />
                     </motion.div>
